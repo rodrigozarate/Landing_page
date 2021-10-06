@@ -1,0 +1,16 @@
+body{
+margin:0;
+    text-align: center;
+}
+.header{
+    background-color: #1f2937;
+    padding:2em;
+}
+.quote{
+    background-color: #E5E7Eb;
+    padding:2em;
+}
+.ctaction{
+    background-color: #3882f6;
+    padding:2em;
+}
