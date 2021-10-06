@@ -6,6 +6,19 @@ margin:0;
     background-color: #1f2937;
     padding:2em;
 }
+.hero{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.herotext{
+    color:#F9FAF8;
+    size:48px;
+    flex-basis:30%;
+}
+.heroimg{
+    flex-basis:30%;
+}
 .quote{
     background-color: #E5E7Eb;
     padding:2em;
