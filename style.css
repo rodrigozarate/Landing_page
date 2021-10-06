@@ -71,27 +71,40 @@ margin:0;
 .quote{
     font-size: 36px;
     font-style: italic;
-    font-weight:light;
+    font-weight:lighter;
     color: #1F2937;
     width:100%;
     background-color: #E5E7Eb;
-    padding:2em;
 }
 .autor{
     font-size: 14px;
     text-align: right;
+    padding: 10px;
+    clear: both;
 }
 
 .ctaction{
-    width: 100%;
+    width: 80%;
     background-color: #3882f6;
-    padding:2em;
+    border-radius: 8px;
+    display: flex;
+    align-items:center;
+    justify-content:space-evenly;
+    gap: 10px;
+}
+.titleaction{
+    padding: 20px;
 }
 .button{
     border-radius: 4px;
     border-bottom-color: aqua;
     cursor: pointer;
     background: aqua;
-    width: auto;
+    width: 200px;
     padding: 6px;
+}
+.footer{
+    background-color: #1f2937;
+    color:#F9FAF8;
+    font-size: 12px;
 }
