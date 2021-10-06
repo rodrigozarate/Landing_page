@@ -3,6 +3,24 @@ margin:0;
     text-align: center;
     font-family:sans-serif;
 }
+.topbar{
+    display: flex;
+    justify-content:space-around;
+    gap:10px;
+    color:#F9FAF8;
+}
+.logo{
+    font-size: 24px;
+    font-weight: extra-bold;
+}
+.navbar ul{
+    display: flex;
+    justify-content:center;
+}
+.navbar ul li{
+    font-weight:normal;
+}
+
 .header{
     background-color: #1f2937;
     padding:2em;
@@ -31,8 +49,10 @@ margin:0;
     font-size: 36px;
     font-weight: extra-bold;
     color:#1F2937;
+    gap:20px;
 }
 .elements{
+    width:80%;
     display: flex;
     align-items:center;
     justify-content:space-evenly;
@@ -44,10 +64,17 @@ margin:0;
 .quote{
     font-size: 36px;
     font-style: italic;
+    font-weight:light;
     color: #1F2937;
     width:100%;
     background-color: #E5E7Eb;
     padding:2em;
+}
+.button{
+    border-radius: 4px;
+    border-bottom-color: aqua;
+    cursor: pointer;
+    background: aqua;
 }
 .ctaction{
     width: 100%;
