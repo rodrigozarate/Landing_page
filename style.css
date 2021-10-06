@@ -1,6 +1,7 @@
 body{
 margin:0;
     text-align: center;
+    font-family:sans-serif;
 }
 .header{
     background-color: #1f2937;
@@ -14,7 +15,8 @@ margin:0;
 }
 .herotext{
     color:#F9FAF8;
-    size:48px;
+    font-size: 48px;
+    font-family:sans-serif;
     flex-basis:30%;
 }
 .heroimg{
@@ -23,6 +25,12 @@ margin:0;
 .container{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+}
+.contenttitle{
+    font-size: 36px;
+    font-weight: extra-bold;
+    color:#1F2937;
 }
 .elements{
     display: flex;
@@ -34,10 +42,15 @@ margin:0;
     flex-basis:20%;
 }
 .quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    width:100%;
     background-color: #E5E7Eb;
     padding:2em;
 }
 .ctaction{
+    width: 100%;
     background-color: #3882f6;
     padding:2em;
 }
